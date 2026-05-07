@@ -344,7 +344,7 @@ canvas{display:block;max-width:100%}
 .ov-card-tags{display:flex;flex-wrap:wrap;gap:5px}
 .ov-card-tag{display:inline-block;font-size:10px;color:var(--green);background:#f0fdf4;border:1px solid rgba(0,180,81,.25);border-radius:4px;padding:2px 7px}
 /* Plan/Do 外层分组容器 */
-.ov-plando{background:#f6fffb;border:1.5px dashed #a7deb6;border-radius:14px;padding:30px 16px 16px;position:relative}
+.ov-plando{background:#f6fffb;border:1.5px dashed #a7deb6;border-radius:14px;padding:30px 16px 16px;position:relative;display:flex;flex-direction:column}
 .ov-plando-title{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#fff;padding:2px 16px;font-size:15px;font-weight:800;font-style:italic;color:var(--green);letter-spacing:.5px;white-space:nowrap}
 .ov-budget-sub{font-size:11px;color:var(--green);text-align:center;margin-bottom:16px}
 .ov-enter-btn-wrap{display:flex;align-items:center;gap:8px}
@@ -486,9 +486,9 @@ canvas{display:block;max-width:100%}
       <!-- ━━━━━━ Do 组 ━━━━━━ -->
       <div class="ov-plando">
         <div class="ov-plando-title">Do：管执行</div>
-        <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;flex-direction:column;gap:12px;flex:1">
           <!-- 卡片4：非媒介供应商选用管理 -->
-          <div class="ov-card" style="background:linear-gradient(150deg,#faf0ff,#f4e8ff);cursor:pointer" onclick="window.open('https://zk2vxk.axshare.com/#id=3e2zk9&p=331%E9%80%89%E7%94%A8%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86','_blank')">
+          <div class="ov-card" style="background:linear-gradient(150deg,#faf0ff,#f4e8ff);cursor:pointer;flex:1;display:flex;flex-direction:column;justify-content:center" onclick="window.open('https://zk2vxk.axshare.com/#id=3e2zk9&p=331%E9%80%89%E7%94%A8%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86','_blank')">
             <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
               <div style="width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#b37feb,#6f30c4);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 10px rgba(111,48,196,.25)">
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="2" y="3" width="8" height="14" rx="1.5"/><rect x="14" y="7" width="8" height="14" rx="1.5"/><line x1="10" y1="7" x2="14" y2="7"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
@@ -503,21 +503,6 @@ canvas{display:block;max-width:100%}
             </div>
           </div>
           <!-- 卡片5：媒介执行过程管理 -->
-          <div class="ov-card" style="background:linear-gradient(150deg,#e6fffb,#ccfaf5)">
-            <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
-              <div style="width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#5cdbd3,#08979c);display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 4px 10px rgba(8,151,156,.25)">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></svg>
-              </div>
-              <div class="ov-card-title" style="margin:0;color:#08979c">媒介执行过程管理</div>
-            </div>
-            <div class="ov-card-desc">通过KPI管理、KOL校验、数据回流、效果复盘沉淀经验等，实现"执行-监控-优化"的闭环管理</div>
-            <div class="ov-card-tags">
-              <span class="ov-card-tag">社媒KPI管理</span>
-              <span class="ov-card-tag">KOL校验</span>
-              <span class="ov-card-tag">数据回流及监控</span>
-              <span class="ov-card-tag">社媒投放复盘</span>
-            </div>
-          </div>
         </div>
       </div>
 
